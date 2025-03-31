@@ -1,0 +1,61 @@
+[
+  {
+    "id": "rule1",
+    "type": "EXCLUDE",
+    "conditions": [
+      {
+        "questionId": "q3",
+        "answers": ["a6"]
+      }
+    ],
+    "products": ["sildenafil_50", "sildenafil_100", "tadalafil_10", "tadalafil_20"]
+  },
+  {
+    "id": "rule2",
+    "type": "EXCLUDE",
+    "conditions": [
+      {
+        "questionId": "q1",
+        "answers": ["a1"]
+      },
+      {
+        "questionId": "q2",
+        "answers": ["a5"]
+      }
+    ],
+    "products": ["sildenafil_100", "tadalafil_20"]
+  },
+  {
+    "id": "rule3",
+    "type": "EXCLUDE",
+    "conditions": [
+      {
+        "questionId": "q4",
+        "answers": ["a9"]
+      }
+    ],
+    "products": ["sildenafil_100", "tadalafil_20"]
+  },
+  {
+    "id": "rule4",
+    "type": "RECOMMEND",
+    "conditions": [
+      {
+        "questionId": "q1",
+        "answers": ["a2"]
+      }
+    ],
+    "products": ["sildenafil_50", "tadalafil_10"]
+  },
+  {
+    "id": "rule5",
+    "type": "RECOMMEND",
+    "conditions": [
+      {
+        "questionId": "q3",
+        "answers": ["a7"]
+      }
+    ],
+    "products": ["sildenafil_50", "sildenafil_100", "tadalafil_10", "tadalafil_20"]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "ed-questionnaire",
+  "category": "ed",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Do you have high blood pressure (hypertension)?",
+      "answers": [
+        {"id": "a1", "text": "Yes"},
+        {"id": "a2", "text": "No"},
+        {"id": "a3", "text": "Not sure"}
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Are you currently taking medication for high blood pressure?",
+      "answers": [
+        {"id": "a4", "text": "Yes"},
+        {"id": "a5", "text": "No"}
+      ],
+      "dependsOnQuestionId": "q1",
+      "showWhenAnswers": ["a1"]
+    },
+    {
+      "id": "q3",
+      "text": "Are you currently taking nitrates for chest pain?",
+      "answers": [
+        {"id": "a6", "text": "Yes"},
+        {"id": "a7", "text": "No"},
+        {"id": "a8", "text": "Not sure"}
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Have you experienced heart failure, a heart attack, or stroke?",
+      "answers": [
+        {"id": "a9", "text": "Yes"},
+        {"id": "a10", "text": "No"},
+        {"id": "a11", "text": "Not sure"}
+      ]
+    }
+  ]
+}
