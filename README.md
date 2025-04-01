@@ -91,10 +91,7 @@ Expected response (no products due to nitrates contraindication):
 ## Setup
 
 1. Clone the repository
-2. Ensure JSON files are placed in:
-    - `src/main/resources/data/questionnaires/ed-questionnaire.json`
-    - `src/main/resources/data/rules/ed-rules.json`
-3. Run: `mvn spring-boot:run`
+2. Run: `mvn spring-boot:run`
 
 ## Potential Future Improvements
 
@@ -103,3 +100,4 @@ Expected response (no products due to nitrates contraindication):
 3. **Admin Interface** - Add APIs for managing questionnaires and rules
 4. **Versioning System** - Track and manage questionnaire changes over time
 5. **Comprehensive Testing** - Add integration tests and edge case coverage
+6. **More Comments** - Need to add more comments around models and other components
